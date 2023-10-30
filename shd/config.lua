@@ -12,7 +12,6 @@ Config.MarkerSize    = {x = 2.5, y = 2.5, z = 0.5}
 Config.MarkerColor   = {r = 60, g = 179, b = 113, a = 255}
 Config.ZoneSize     = {x = 1.0, y = 2.5, z = 1.0}
 Config.UseOxInventory = true
-Config.checkForUpdates = true
 
 Config.DistanceToInteract = 2.0
 Config.TimeToRecolect = 5000 --- In miliseconds
