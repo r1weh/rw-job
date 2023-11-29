@@ -39,3 +39,17 @@ AddEventHandler('rw:jualbahands', function()
     })
 	  lib.showContext('rw:jsbahan')
 end)
+
+-- [Ped Target in Ox_target!] --
+local jualdisnaker = {
+    1657546978,
+}
+
+exports.ox_target:addModel(jualdisnaker, {
+    {
+        name = 'js',
+        event = 'rw:jualbahands',
+        icon = 'far fas fa-laptop-medical',
+        label = 'Akses Menu Shop!',
+    }
+})
